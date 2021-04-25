@@ -74,13 +74,13 @@ MENUITEMS = (
 DISPLAY_PAGES_ON_MENU = False
 
 SUBMENUS = (
-    ('Cosa facciamo', "/", (
+    ('Cosa facciamo', "/pages/manifesto-pws.html", (
         ('Convegno e-privacy', 'https://e-privacy.winstonsmith.org'),
         ('Big Brother & CoViD-1984 t-shirts', 'https://worthwearing.org/store/progetto-winston-smith'),
         ('La guida al Voto Digitale', 'https://blog.crvd.org/la-guida-hermes-al-voto-digitale/'),
         #('Big brother award', 'https://bba.winstonsmith.org')
     )),
-    ('Chi siamo', "/", (
+    ('Chi siamo', "/pages/io-sono-winston-smith.html", (
         ('...io sono Winston Smith', '/pages/io-sono-winston-smith.html'),
         ('Il Manifesto', '/pages/manifesto-pws.html'),
         ('collabora', '/pages/collabora.html'),
