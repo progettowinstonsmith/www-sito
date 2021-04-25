@@ -16,7 +16,7 @@ JINJA_FILTERS = {'sidebar': sidebar}
 AUTHOR = u'Winston Smith'
 SITENAME = u'Progetto Winston Smith'
 SITESUBTITLE = u''
-SITEURL = 'https://pws.winstonsmith.org'
+SITEURL = u'https://pws.winstonsmith.org'
 
 
 HEADINGS = (
@@ -50,9 +50,8 @@ LINKS = (('Pelican', 'http://getpelican.com/'),
          ('You can modify those links in your config file', '#'),)
 
 # Social widget
-SOCIAL = (('Telegram', '')
-    ('Facebook', '#'),
-    ('Twitter', '#'),)
+SOCIAL = (('Facebook', 'https://www.facebook.com/progetto.winston.smith'),
+          ('Twitter', 'https://twitter.com/projectwinnie'),)
 
 DEFAULT_PAGINATION = 10
 
@@ -67,20 +66,9 @@ THEME = "themes/twenty"
 
 STATIC_PATHS = ['css', 'js', 'images']
 
-PAST_EDITIONS = (
-    ('BBA 2012', '/big-brother-award-italia-2012.html'),
-    ('BBA 2011', '/big-brother-award-italia-2011.html'),
-    ('BBA 2010', '/big-brother-award-italia-2010.html'),
-    ('BBA 2009', '/big-brother-award-italia-2009.html'),
-    ('BBA 2008', '/big-brother-award-italia-2008.html'),
-    ('BBA 2007', '/big-brother-award-italia-2007.html'),
-    ('BBA 2006', '/big-brother-award-italia-2006.html'),
-    ('BBA 2005', '/big-brother-award-italia-2005.html'),
-)
-
 MENUITEMS = (
     ('E-Privacy', 'https://e-privacy.winstonsmith.org/'),
-    ('Sostienici', "http://paypal.me/eprivacy"),
+    ('Sostieni!', "http://paypal.me/eprivacy"),
 )
 
 DISPLAY_PAGES_ON_MENU = False
@@ -94,7 +82,7 @@ SUBMENUS = (
     )),
     ('Chi siamo', "/", (
         ('...io sono Winston Smith', '/pages/io-sono-winston-smith.html'),
-        # ('Progetto Winston Smith', 'http://pws.winstonsmith.org'),
+        ('Il Manifesto', '/pages/manifesto-pws.html'),
         ('collabora', '/pages/collabora.html'),
         ('supporta', "/pages/dona.html"),
         # ('sala stampa', '/pages/stampa.html'),
